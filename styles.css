@@ -1,0 +1,86 @@
+h1{
+    font-size: 68px;
+    color:crimson;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 50px;
+    width: 50%;
+}
+
+.puppy-image {
+    max-width: fit-content;
+    height: auto;
+    padding: 50%;
+}
+
+section{
+    background-color:rgb(106, 229, 111);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-text {
+    font-size: 16px;
+    color:darkslateblue;
+    background-color:khaki;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button-section{
+    padding-top:10rem;
+    padding-bottom:10rem;
+}
+
+.cta-button{
+    font-size:32px;
+    background-color:aqua;
+    border:none;
+    box-shadow:none;
+    padding: 1rem 3rem;
+    filter:drop-shadow(0)
+    border-radius 20px;
+    transition: 0.2s scale ease-in, 0.4s background-color ease-in, 0.5s transform ease-in;
+}
+
+.cta-button:hover{
+    background-color:rgb(255, 255, 0);
+    cursor:pointer;
+}
+
+.bounce-animation{
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.opacity-0{
+    opacity:0;
+}
+
+#puppy-image{
+    transition: opacity .6s ease-out;
+}
+.cta-focus{
+    background-color:blanchedalmond
+}
+
+@keyframes grow{
+    0%{
+        scale:1;
+    }
+    80%{
+        scale:4;
+    }
+    100%{
+        scale:3;
+    }
+}
